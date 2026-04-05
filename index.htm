@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1. ШАПКА -->
+    <header class="profile-header">
+        <div class="header-content">
+            <h1>Дизайн среды:<br>Игуменова Анастасия</h1>
+            <p class="description">Создаю функциональные и эстетичные пространства через проектирование, 3D-визуализацию и фирменный стиль</p>
+            <a href="#i"><div class="con"> КОНТАКТЫ</div></a>
+        </div>
+        <div class="scroll-down"><img src="фото\Arrow 1 (Stroke).png" alt="" style="width: 50px; height: 50px; transform: rotate(90deg);"></div>
+    </header>
+
+    <!-- 2. ОБО МНЕ -->
+    <section class="about-section">
+        <div class="about-card">
+            <img src="фото/IMG_0284.JPEG" alt="Анастасия Игуменова" class="about-photo">
+            <div class="about-text-wrap">
+                <h2 class="about-title">Обо мне:</h2>
+                <p class="about-text">
+                    Я студентка 3 курса РГХПУ имени С. Г. Строганова, направления – Дизайн среды. 
+                    Проектирую общественные пространства, малые архитектурные формы, интерьеры, 
+                    объединяя архитектуру, дизайн и инженерию. Моя работа — это создавать комфортную 
+                    и эстетическую среду и выражать сложные мысли средствами графической коммуникации.
+                </p>
+            </div>
+        </div>
+        <div class="dashed-line"></div>
+    </section>
+
+    <!-- 3. НАВЫКИ И РАБОТЫ -->
+    <section class="skills-works-section">
+        <div class="sw-top">
+            <h2 class="sw-title">Навыки</h2>
+            <div class="sw-grid">
+                <a href="#sw-title white" class="sw-card">
+                    <span class="sw-icon"><img src="фото/327443bb0bdf727f264b52b023ee71b0-no-bg-preview (carve.photos).png" alt=""></span>
+                    <span>Проектирование и чертежи <br>
+                     <span style="
+                        font-weight: 100; 
+                        ">Archicad, AutoCAD</span></span>
+                </a>
+                <a href="#sw-title white" class="sw-card">
+                    <span class="sw-icon"><img src="фото/08421985fc4afa9106aeda965f3da040-no-bg-preview (carve.photos).png" alt=""></span>
+                    <span>3D-моделирование и визуализация <br>
+                     <span style="
+                        font-weight: 100; 
+                        ">
+SketchUp, Archicad, Cinema 4D, TwinMotion</span></span>
+                </a>
+                <a href="#sw-title white" class="sw-card">
+                    <span class="sw-icon"><img src="фото/8a616677da677743c6b20974f7cca10e-no-bg-preview (carve.photos).png" alt=""></span>
+                    <span> Векторная графика и фирменный стиль
+ <br>
+                     <span style="
+                        font-weight: 100; 
+                        "> Adobe Illustrator, Photoshop, Procreate</span></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="wave-container">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none" style="width: 200%; height: 100%;">
+                <path class="wave-path" d="M0,64 C240,128 480,0 720,64 C960,128 1200,0 1440,64 L1440,120 L0,120 Z"></path>
+                <path class="wave-path" d="M1440,64 C1680,128 1920,0 2160,64 C2400,128 2640,0 2880,64 L2880,120 L1440,120 Z"></path>
+            </svg>
+        </div>
+
+        <div class="sw-bottom">
+            <h2 id="sw-title white" class="sw-title white">Работы</h2>
+            <div class="sw-grid works-grid">
+                <a href="#gallery-title" class="sw-card blue-card">
+                    <span class="sw-icon"><img src="фото/d3dd22232e921196b5eac4d3d3cf4fbc-no-bg-preview (carve.photos).png" alt=""></span>
+                    <span>Проектная деятельность</span>
+                </a>
+                <a href="#modeling-section" class="sw-card blue-card">
+                    <span class="sw-icon"><img src="фото/design_project_construct.svg" alt=""></span>
+                    <span>Макетирование</span>
+                </a>
+                <a href="#viz-slider-block" class="sw-card blue-card">
+                    <span class="sw-icon"><img src="фото/db78cd2d037c440a627c93d1c3f80536-no-bg-preview (carve.photos).png" alt=""></span>
+                    <span>Визуализация и 3D-моделирование</span>
+                </a>
+                <a href="#lighting" class="sw-card blue-card">
+                    <span class="sw-icon"><img src="фото/0673f71d3b171ad842c58db24c85c2e4-no-bg-preview (carve.photos).png" style="width: 84px; height: 84px;" alt="" ></span>
+                    <span>Светдинг и компьютерная графика</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ГАЛЕРЕЯ -->
+<section class="gallery-section">
+    <!-- ✅ ДОБАВЛЕН ЗАГОЛОВОК -->
+    <h2 id="gallery-title" class="gallery-title">Проектная деятельность</h2>
+
+    <div id="bg1" class="bg-layer"></div>
+    <div id="bg2" class="bg-layer"></div>
+
+    <div class="gallery-wrapper">
+        <button class="arrow" id="leftArrow">
+            <img src="фото/Arrow 1 (Stroke).png" alt="←">
+        </button>
+        <div class="container">
+            <img src="фото/ПОДАЧА_ИГУМЕНОВА_ФАСАД 1.png" alt="1" class="image" id="img1">
+            <img src="фото/zxczxc 1.png" alt="2" class="image" id="img2">
+            <img src="фото/подача_1-01.jpg" alt="3" class="image" id="img3">
+        </div>
+        <button class="arrow" id="rightArrow">
+            <img src="фото/Arrow 1 (Stroke).png" alt="→">
+        </button>
+    </div>
+
+    <div id="galleryText" class="gallery-text">
+        Проектирование общественного пространства. Концепт парка.
+    </div>
+
+    <div class="video-wrapper">
+        <video id="videoPlayer" controls playsinline>
+            <source src="" type="video/mp4" id="videoSource">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+</section>
+
+    <!-- 5. МАКЕТИРОВАНИЕ -->
+    <section class="modeling-section">
+        <h2 id="modeling-section" class="modeling-title">Макетирование</h2>
+        
+        <div class="model-container">
+            <!-- Блок 1 -->
+        <div class="model-item">
+            <button class="model-btn" data-target="ocean">
+                <div class="btn-photo">
+                    <img src="фото/макет_Игуменова_3СД_фасад 1 1.png" alt="Океанология">
+                </div>
+                <span class="btn-text">Институт Океанологии</span>
+            </button>
+            <!-- Слайдшоу (появится вместо кнопки) -->
+            <div id="ocean" class="model-slideshow">
+                <div class="slideshow-track">
+                    <button class="sl-arrow sl-prev"></button>
+                    <div class="sl-images">
+                        <img src="фото/макет_Игуменова_3СД_фасад.jpg" class="sl-img active">
+                        <img src="фото/макет_2_Игуменова_3СД_фасад.jpg" class="sl-img">
+                        <!-- ↑ ДОБАВИЛ class="sl-img" -->
+                    </div>
+                    <button class="sl-arrow sl-next"></button>
+                </div>
+                <div class="sl-dots">
+                    <span class="sl-dot active" data-index="0"></span>
+                    <span class="sl-dot" data-index="1"></span>
+                </div>
+            </div>
+        </div>
+
+            <!-- Блок 2 -->
+            <div class="model-item">
+                <button class="model-btn" data-target="valkeda">
+                    <div class="btn-photo">
+                        <img src="фото\PHOTO-2025-06-08-16-21-53 3.png" alt="VALKEDA">
+                    </div>
+                    <span class="btn-text">VALKEDA</span>
+                </button>
+                <div id="valkeda" class="model-slideshow">
+                    <div class="slideshow-track">
+                        <button class="sl-arrow sl-prev"></button>
+                        <div class="sl-images">
+                            <img src="homerl/PHOTO-2025-06-08-16-22-23.jpg" class="sl-img active">
+                            <img src="homerl/PHOTO-2025-06-08-16-21-53.jpg" class="sl-img">
+                            <img src="homerl/PHOTO-2025-06-08-16-21-53 2.jpg" class="sl-img">
+                        </div>
+                        <button class="sl-arrow sl-next"></button>
+                    </div>
+                    <div class="sl-dots">
+                        <span class="sl-dot active" data-index="0"></span>
+                        <span class="sl-dot" data-index="1"></span>
+                        <span class="sl-dot" data-index="2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Блок 3 -->
+            <div class="model-item">
+                <button class="model-btn" data-target="planetarium">
+                    <div class="btn-photo">
+                        <img src="фото\2СД Игуменова А.А. 3 фото_макет 1 1.png" alt="Планетарий">
+                    </div>
+                    <span class="btn-text">Планетарий</span>
+                </button>
+                <div id="planetarium" class="model-slideshow">
+                    <div class="slideshow-track">
+                        <button class="sl-arrow sl-prev"></button>
+                        <div class="sl-images">
+                            <img src="фото/2СД Игуменова А.А. 3 фото_макет.jpg" class="sl-img active">
+                            <img src="фото/2СД Иуменова А.А. 1 фото_макет.jpg" class="sl-img">
+                        </div>
+                        <button class="sl-arrow sl-next"></button>
+                    </div>
+                    <div class="sl-dots">
+                        <span class="sl-dot active" data-index="0"></span>
+                        <span class="sl-dot" data-index="1"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Модальное окно -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Полноэкранный режим">
+        </div>
+        <span class="modal-close">&times;</span>
+        <div class="zoom-controls">
+            <button class="zoom-btn" id="zoomInBtn">+</button>
+            <button class="zoom-btn" id="zoomOutBtn">-</button>
+            <button class="zoom-btn reset-btn" id="zoomResetBtn">⟳</button>
+        </div>
+        <div class="zoom-indicator" id="zoomIndicator">100%</div>
+    </div>
+
+    <!-- 6. ВИЗУАЛИЗАЦИЯ И СВЕТДИНГ -->
+<section class="visualization-section" id="visualization">
+    <h2 class="visualization-title">Визуализация и Графика</h2>
+    
+    <div class="visualization-container">
+        
+        <!-- Слайдер 1: 2D/3D Визуализация (7 фото) -->
+        <div id="viz-slider-block" class="viz-slider-block">
+            <h3 class="viz-slider-title">2D/3D Визуализация</h3>
+            <div class="viz-slider" id="vizSlider1">
+                <button class="viz-arrow viz-prev">‹</button>
+                <div class="viz-track">
+                    <img src="фото/рендер2.png" class="viz-slide active" alt="Визуализация 1">
+                    <img src="фото/2сем_2К-01.jpg" class="viz-slide" alt="Визуализация 2">
+                    <img src="фото/фасад главный2 копия.png" class="viz-slide" alt="Визуализация 3">
+                    <img src="фото/1Сем_2К-02.png" class="viz-slide" alt="Визуализация 4">
+                    <img src="фото/1Сем_2К2-01.png" class="viz-slide" alt="Визуализация 5">
+                    <img src="фото/1.1.1.png" class="viz-slide" alt="Визуализация 6">
+                    <img src="фото/3.3.3.png" class="viz-slide" alt="Визуализация 7">
+                </div>
+                <button class="viz-arrow viz-next">›</button>
+                <div class="viz-dots">
+                    <span class="viz-dot active" data-index="0"></span>
+                    <span class="viz-dot" data-index="1"></span>
+                    <span class="viz-dot" data-index="2"></span>
+                    <span class="viz-dot" data-index="3"></span>
+                    <span class="viz-dot" data-index="4"></span>
+                    <span class="viz-dot" data-index="5"></span>
+                    <span class="viz-dot" data-index="6"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Слайдер 2: Светдинг и векторная графика (6 фото) -->
+        <div class="viz-slider-block" id="lighting">
+            <h3 class="viz-slider-title">Скетчинг и векторная графика</h3>
+            <div class="viz-slider" id="vizSlider2">
+                <button class="viz-arrow viz-prev">‹</button>
+                <div class="viz-track">
+                    <img src="фото/вектар/Скетчинг_04 1.png" class="viz-slide active" alt="Графика 1">
+                    <img src="фото/вектар/2_СД_Игуменова_А_Плакат_Монтажная_область_1_копия_4 1.png" class="viz-slide" alt="Графика 2">
+                    <img src="фото/вектар/IMG_0057 1.png" class="viz-slide" alt="Графика 3">
+                    <img src="фото/вектар/плакат_Игуменова_3СД_облако_-01 1.png" class="viz-slide" alt="Графика 4">
+                    <img src="фото/вектар/скетчинг футура-3 1.png" class="viz-slide" alt="Графика 5">
+                    <img src="фото/вектар/Скетчинг_01 1.png" class="viz-slide" alt="Графика 6">
+                </div>
+                <button class="viz-arrow viz-next">›</button>
+                <div class="viz-dots">
+                    <span class="viz-dot active" data-index="0"></span>
+                    <span class="viz-dot" data-index="1"></span>
+                    <span class="viz-dot" data-index="2"></span>
+                    <span class="viz-dot" data-index="3"></span>
+                    <span class="viz-dot" data-index="4"></span>
+                    <span class="viz-dot" data-index="5"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact-section" id="i">
+    <div class="contact-container">
+        <h2 class="contact-title">Готовы к сотрудничеству?<br>Напишите мне!</h2>
+        <p class="contact-text">
+            От эскиза до финального проекта — моя цель сделать пространство
+            не только красивым, но и удобным и безопасным.
+        </p>
+        
+        
+        <a href="mailto:nas.igumenova04@mail.ru" class="contact-email-btn">
+    Написать на почту
+</a>
+<p style="margin-bottom: 100px; color: #666; font-size: 0.9rem;">nas.igumenova04@mail.ru</p>
+        
+        <div class="contact-or">ИЛИ</div>
+        
+        <div class="contact-social">
+            <a href="http://t.me/inastyushka" target="_blank" class="social-link telegram">
+                <img src="фото\Telegram — Color background.png" alt="" style="width: 100px; height:100px;">
+            </a>
+            <a href="https://max.ru/u/f9LHodD0cOLZIqYYiv7rab0KGbSizd2J3h3_R4x57gcPmfJP5j-yWy4YgTU" target="_blank" class="social-link max">
+                <img src="фото\MAX — Color background.png" alt="" style="width: 100px; height:100px;">
+            </a>
+        </div>
+    </div>
+</section>
+<section class="telegram-section">
+    <div class="telegram-card">
+        <div class="telegram-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.5 3.5L2.5 11.5L8.5 14.5L19.5 7.5L11.5 16.5L19.5 20.5L21.5 3.5Z" fill="currentColor"/>
+            </svg>
+        </div>
+        <h2 class="telegram-title">Связаться c разработчиком сайта в Telegram</h2>
+        <p class="telegram-text">Обсудим проект, отвечу на вопросы и пришлю портфолио в удобном формате. Обычно отвечаю в течение часа.</p>
+        <!-- ⚠️ ЗАМЕНИТЕ ССЫЛКУ И ТЕКСТ НА СВОЙ -->
+        <a href="https://t.me/boba515" target="_blank" class="telegram-btn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.5 3.5L2.5 11.5L8.5 14.5L19.5 7.5L11.5 16.5L19.5 20.5L21.5 3.5Z" fill="currentColor"/>
+            </svg>
+            BoB515
+        </a>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+        <!-- <div class="scroll-down"><img src="фото\Arrow 1 (Stroke).png" alt="" style="width: 50px; height: 50px; transform: rotate(90deg);"></div> -->
+  
+  
+        <!-- <span class="sw-icon"><img src="фото/0673f71d3b171ad842c58db24c85c2e4-no-bg-preview (carve.photos).png" style="width: 84px; height: 84px;" alt="" ></span> -->
+ 
+ 
+ 
+ 
+                            <!-- <span class="sw-icon"><img src="фото/0673f71d3b171ad842c58db24c85c2e4-no-bg-preview (carve.photos).png" style="width: 84px; height: 84px;" alt="" ></span> -->
+
+
+
+        <!-- <div class="viz-slider-block">
+            <h3 class="viz-slider-title">2D/3D Визуализация</h3>
+            <div class="viz-slider" id="vizSlider1">
+                <button class="viz-arrow viz-prev">‹</button>
+                <div class="viz-track">
+                    <img src="фото/рендер2.png" class="viz-slide active" alt="Визуализация 1">
+                    <img src="фото/2сем_2К-01.jpg" class="viz-slide" alt="Визуализация 2">
+                    <img src="фото/фасад главный2 копия.png" class="viz-slide" alt="Визуализация 3">
+                    <img src="фото/1Сем_2К-02.png" class="viz-slide" alt="Визуализация 4">
+                    <img src="фото/1Сем_2К2-01.png" class="viz-slide" alt="Визуализация 5">
+                    <img src="фото/1.1.1.png" class="viz-slide" alt="Визуализация 6">
+                    <img src="фото/3.3.3.png" class="viz-slide" alt="Визуализация 7">
+                </div>
+                <button class="viz-arrow viz-next">›</button>
+                <div class="viz-dots">
+                    <span class="viz-dot active" data-index="0"></span>
+                    <span class="viz-dot" data-index="1"></span>
+                    <span class="viz-dot" data-index="2"></span>
+                    <span class="viz-dot" data-index="3"></span>
+                    <span class="viz-dot" data-index="4"></span>
+                    <span class="viz-dot" data-index="5"></span>
+                    <span class="viz-dot" data-index="6"></span>
+                </div>
+            </div>
+        </div> -->
